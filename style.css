@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #A258DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak{
+    width: 70%;
+    height: 450px;
+    background-color: #DAF0F3;
+    border-radius: 30px;
+    display: flex;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #F7F7F7;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-weight: bold;
+    color: #620AA7;
+    font-size: 14px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 65px;
+    position: relative;
+    gap: 35px;
+}
+
+
+
+.menu{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 330px;
+    top: 15px;
+    gap: 20px;
+    opacity: 0.5;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
+
+.nav-link a:hover{
+    color: #1400F6;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.isi{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    width: 30%;
+}
+
+.isi p:first-child{
+    font-size: 12px;
+    font-weight: bold;
+    color: #620AA7;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.isi p:nth-child(2){
+    color: #1400F6;
+    font-size: 40px;
+    font-weight: bolder;
+    font-weight: 900;
+}
+
+.isi p:nth-child(3){
+    font-size: 15px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.btnjoin,
+.btnnotnow{
+    margin-top: 30px;
+    font-size: 13px;
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #620AA7;
+    font-weight: 500;
+}
+
+.btnjoin{
+    background-color: #620AA7;
+    color: white;
+}
+
+
+.btnnotnow{
+    border: 1.5px solid #620AA7;
+    margin-left: 40px;
+    color: #620AA7;
+}
+
+.laptop{
+    width: 440px;
+    height: 250px;
+    position: absolute;
+    right: 18%;
+    top: 30%;
+}
+
+.btnjoin:hover{
+    background-color: #A258DC;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnnotnow:hover{
+    background-color: #A258DC;
+    border: #A258DC solid 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: translateY(0.3s);
+    transition: 0.3s;
+}
+
+.btnjoin::before:hover{
+    transform: translateY(0);
+}
